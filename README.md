@@ -2,15 +2,15 @@
 
 # Task Management System
 ## Overview
-This project is a Task Management System built with Laravel, designed to help users manage tasks, 
-deadlines, and team collaboration. The application allows for creating, updating, and tracking tasks, 
-as well as user authentication and access control. It uses Docker for easy setup and deployment.
+This project is a Task Management System built with Laravel, to help users manage tasks, 
+ and team collaboration. The application allows for creating, updating, and tracking tasks, 
+user authentication and access control. It uses Docker for easy setup and deployment.
 
  
 ## Features
 - **Task creation and management**
 - **User authentication and authorization**
-- **Assigning task to user**
+- **Assigning a task to the user**
 - **Task can depend on other task (subtasks)**
 - **Docker-based deployment**
 
