@@ -15,6 +15,8 @@ as well as user authentication and access control. It uses Docker for easy setup
 - **Docker-based deployment**
 
 ## Prerequisites
+- **PHP(if you are not going to use docker)**
+- **MySQL(if you are not going to use docker)**
 - **Composer**
 - **Docker**
 - **Docker Compose**
@@ -51,7 +53,11 @@ docker-compose exec app php artisan migrate --seed
 
 5. Access the Application
 
+
 After you import the postman collection , go to environment and make sure  base url id `http://localhost:80/api` 
+
+-***Want to have a look at database diagram ?  it's located at `database/database_design`***
+
 
 ## Usage
 - **Register a new user**
@@ -61,6 +67,6 @@ After you import the postman collection , go to environment and make sure  base 
 - **Mark the task as completed**
 - **Create subtasks for a task**
 - **View all tasks**
-- **View all tasks assigned to a user**
+- **View single task**
 - **Enable or disable users**
 - **Logout**
